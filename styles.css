@@ -4,11 +4,16 @@ body {
   font-family: Poppins, sans-serif;
   margin: 0;
 }
+
 .container {
   max-width: 80rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-image: url(/assets/header-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .container.container-small {
@@ -17,43 +22,56 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .nav-container {
   max-width: 80rem;
-  margin: 0 auto; /* to centre the div*/
+  margin: 0 auto;
+
+  /* to centre the div */
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.5rem; /*equal to 8px*/
+  gap: 0.5rem;
 
+  /* equal to 8px */
 }
-.logo {
-  padding : 10px 12px; /* to be converted to REM*/
-  font-size: 18px;
-  color: #6070FF; 
 
+.logo {
+  padding: 10px 12px;
+
+  /* to be converted to REM */
+  font-size: 18px;
+  color: #6070ff;
 }
 
 .nav-link {
-  padding: 10px 12px; /* to be converted to REM*/
+  padding: 10px 12px;
+
+  /* to be converted to REM */
   margin: 0 0.5rem 0 0;
   color: #344563;
-  font-size: 1rem; 
+  font-size: 1rem;
   font-weight: 500;
 }
+
 h1.heading {
-  font-size: 3rem; /*equal to 48px*/
+  font-size: 3rem;
+
+  /* equal to 48px */
   font-weight: 700;
 }
+
 p.supporting-text {
   font-size: 1.25rem;
   font-weight: 400;
   color: #344563;
-
 }
+
 .toolbar {
   display: flex;
 }
+
 h1 {
   display: flex;
   background: #fff;
@@ -69,7 +87,6 @@ h1 {
   justify-content: space-between;
 }
 
-
 .call-to-action {
   text-transform: uppercase;
   font-weight: 500;
@@ -83,16 +100,15 @@ h1 {
 .icons {
   display: flex;
 }
+
 .social-icon {
   margin-right: 1rem;
 }
 
 .headline-section {
-  background-image: url(/assets/hero-img.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10rem 0;
-}
+  
+  padding: 10rem 0;}
+
 .twitter {
   display: flex;
   flex-direction: row;
@@ -104,7 +120,7 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
 }
-
+/**
 .logo {
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -114,18 +130,25 @@ h1 {
   line-height: 20px;
   align-items: center;
   text-align: center;
+  justify-content: space-between;}
+
+.about {
+  display: flex;
+  text-align: right;
+  text-align: right;
   justify-content: space-between;
 }
 
-.about { display: flex;
+.contact {
+  display: flex;
   text-align: right;
-  text-align: right;
-  justify-content: space-between;}
+  justify-content: space-between;
+}
 
-.contact { display: flex;
+.port {
+  display: flex;
   text-align: right;
-  justify-content: space-between;}
+  justify-content: space-between;
+}
 
-  .port { display: flex;
-  text-align: right;
-  justify-content: space-between;}
+**/
