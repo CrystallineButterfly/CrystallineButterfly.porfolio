@@ -1,4 +1,4 @@
-.MV { display: flex;
+.mv { display: flex;
 background: #FFFFFF;
 color: #091e42;
 font-family: 'Poppins';
@@ -10,7 +10,7 @@ align-items: center;
 letter-spacing: 0.37px;
 margin: 12px 0px;}
 
-.MV1 { display: flex;
+.mv1 { display: flex;
 background: #FFFFFF;
 color: #344563;
 font-family: 'Poppins';
@@ -20,7 +20,7 @@ font-size: 20px;
 line-height: 28px;
 margin: 12px 0px;}
 
-.B { display: flex;
+.b { display: flex;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -29,5 +29,5 @@ line-height: 24px;
 color: #7f8cff;
 margin: 0px 8px;}
 
-.T { display: flex;
+.twitter { display: flex;
 }
