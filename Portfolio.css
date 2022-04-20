@@ -13,6 +13,7 @@
   letter-spacing: 0.37px;
   margin: 12px 0;
   justify-content: space-between;
+  width: 20%;
 }
 
 .mv1 {
@@ -25,6 +26,7 @@
   line-height: 28px;
   margin: 12px 0;
   justify-content: space-between;
+  width: 20%;
 }
 
 .b {
@@ -37,18 +39,21 @@
   color: #7f8cff;
   margin: 0 8px;
   justify-content: space-between;
+  width: 20%;
 }
 
 .twitter {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 20%;
 }
 
 .github {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 20%;
 }
 
 .logo {
@@ -61,4 +66,5 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
+  width: 20%;
 }
