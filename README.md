@@ -1,17 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+Figma portfolio site, using given templates. 
 
-> Description the project.
+> This project is intended to use actionable use cases of my current coding knowledge and to adjacently expand that knowledge, for ever increasing productivity, effectiveness and utility; therefore I have been directed to create a figma based portfolio by microverse, using given templates.  
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- CSS/HTML 
+- GITHUB
+- Figma.
 
-## Live Demo (if available)
+
+Live Demo.
 
 [Live Demo Link](https://livedemo.com)
 
@@ -42,15 +43,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@CrystallineButterfly](https://github.com/CrystallineButterfly)
+- Twitter: [@CrystAlline_k42](https://twitter.com/CrystAlline_K42)
+- LinkedIn: [Kell Mcwatt](https://www.linkedin.com/in/kell-mcwatt-6357ab234/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
