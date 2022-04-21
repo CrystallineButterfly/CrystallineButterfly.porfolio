@@ -11,13 +11,13 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 .container {
   max-width: 80rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  
-  overflow: auto; /*this allows elements to overflow out of the bounding box*/
+  overflow: auto; /* this allows elements to overflow out of the bounding box */
 }
 
 .container-small {
@@ -75,8 +75,6 @@ p.supporting-text {
 .toolbar {
   display: flex;
 }
-
-
 
 .call-to-action {
   text-transform: uppercase;
