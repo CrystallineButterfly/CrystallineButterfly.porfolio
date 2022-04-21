@@ -37,6 +37,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+  flex-direction: column;
 
   /* equal to 8px */
 }
@@ -111,4 +112,22 @@ p.supporting-text {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.hamburger-menu {
+  display: flex;
+  width: 18px;
+  height: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  h1.heading {
+    font-size: 2rem;
+  }
 }
