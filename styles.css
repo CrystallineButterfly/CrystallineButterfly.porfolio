@@ -99,9 +99,6 @@ p.supporting-text {
   padding: 10rem 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
 }
 
 .twitter {
@@ -115,36 +112,3 @@ p.supporting-text {
   flex-direction: row;
   justify-content: space-between;
 }
-
-/**
-.logo {
-  display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;}
-
-.about {
-  display: flex;
-  text-align: right;
-  text-align: right;
-  justify-content: space-between;
-}
-
-.contact {
-  display: flex;
-  text-align: right;
-  justify-content: space-between;
-}
-
-.port {
-  display: flex;
-  text-align: right;
-  justify-content: space-between;
-}
-
-**/
