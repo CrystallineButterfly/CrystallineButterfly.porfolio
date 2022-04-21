@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
@@ -97,6 +97,11 @@ p.supporting-text {
 .headline-section {
   margin: 12px 0px;
   padding: 10rem 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
 }
 
 .twitter {
