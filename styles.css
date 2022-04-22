@@ -172,7 +172,19 @@ p.supporting-text {
     background-size: cover;
     background-position: center;
   }
+
+  .project, .grid {
+    display : flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #DFE1E6;
+    background-color: #fff;
+    margin: 4.438rem 0;
+  
+  }
 }
+
 
 .works-header { 
   display: grid;
