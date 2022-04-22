@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
@@ -171,4 +172,166 @@ p.supporting-text {
     background-size: cover;
     background-position: center;
   }
+}
+
+.works-header { 
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 18.4375rem;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: #172B4D;
+}
+
+.portfolio { 
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 8.875rem;
+
+
+}
+
+.portfolio-section {
+  background-color: #F4F5F7;
+}
+
+.project-img {
+  display: inline-block;
+  width: 100%;
+  
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 1.5rem;
+}
+
+.project-title { 
+  align-content: left;
+  justify-content: left;
+  font-weight: 700;
+  grid-auto-flow: row;
+  font-size: 32px;
+  line-height: 44px;
+  font: 'Poppins', sans-serif;
+  padding: 10 3%;
+  color: #172B4D;
+}
+
+.project-meta { 
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.project-tag {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-size-adjust: 18px; /* to be converted to REMs*/
+  color: #344563;
+  margin: 0 12px 0 0; /* Change 12px to REMs*/
+
+}
+
+.project-tech, .project-year {
+  color: #6B778C;
+  font-weight: 400;
+  font-size: 18px; /* to change 18px to REMs*/
+  margin: 0 12px;
+
+
+}
+
+.project-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #344563;
+  margin: 1rem 0 0 0;
+
+}
+
+.tags {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  margin: 1.5rem 0 2rem 0;
+}
+.tag {
+  font-size: 12px; /*Refactor : PX -> REMs*/
+  color: #6070FF;
+  font-weight: 500;
+  padding: 0.25rem 12px; /*Refactor : PX -> REMs*/
+  background-color: #EBEBFF;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem 0 0;
+}
+
+a.see-project {
+  text-size-adjust: 1.0625rem; 
+  color: #396DF2;
+  text-decoration: none;
+  padding: .75rem; /*Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
+  border: .0625rem solid #6070FF; /*Border Size, Type , Color*/
+  border-radius: 0.5rem;
+  transition: all 0.4s ease-in-out; /*400ms*/
+}
+
+a.see-project:hover {
+  text-size-adjust: 17px;
+  background-color: #396DF2;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  box-shadow: 0px .5rem 1rem rgba(64, 83, 252, 0.24);
+  /*Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
+  border: 1px solid #6070FF;
+  /*Border Size, Type , Color*/
+  border-radius: 0.5rem;
+}
+
+a.see-project:focus {
+  text-size-adjust: 17px;
+  background-color: #2230D2;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  /*Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
+  border: 1px solid #2230D2;
+  /*Border Size, Type , Color*/
+  border-radius: 0.5rem;
+  outline: 1px #396DF2;
+}
+
+.project, .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #DFE1E6;
+  background-color: #fff;
+  margin: 4.438rem 0;
+
+}
+.works-header { 
+  display: grid;
+  padding: 18px;
+}
+
+
+/*Portfolio Styles Section*/
+
+section .portfolio {
+  max-width: 80rem;
+  margin: 0 auto;
 }
