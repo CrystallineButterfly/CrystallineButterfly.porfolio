@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
@@ -13,71 +13,53 @@
 
 <body>
     <!--HERO SECTION -->
-    <header class="nav-container">
-        <div class="logo">
-            My logo
+    <header>
+        <div class="container main-nav">
+            <div class="logo">The Logo</div>
+            <nav class="toolbar">
+                <a href="#" class="nav-link">Portfolio</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
         </div>
-        <nav class="toolbar">
-            <div class="nav-link">Portfolio</div>
-            <div class="nav-link">About</div>
-            <div class="nav-link">Contact</div>
-        </nav>
-
-        <!-- MOBILE RESPONSIVE-->
-        <nav class="mobile-menu">
-            <div class="mylogo">My Logo</div>
-            <div class="hamburger-menu">
-                <img src="Union.png" alt="hamburger">
+            <!-- MOBILE RESPONSIVE-->
+            <div>
+            <nav class="mobile-menu">
+                <!--Mobile Nav-->
+                <div class="mylogo">My Logo</div>
+                <div class="hamburger-menu"><img src="Union.png" alt="hamburger"></div>
+            </nav>
             </div>
-        </nav>
-
-
+        
     </header>
 
     <!-- HERO SECTION -->
-    <section class="section">
+    <section class="hero-section">
         <div class="container">
             <div class="container-small">
                 <div class="headline-section">
                     <h1 class="heading">I am Kell; <br /> Welcome all Earthlings!</h1>
                     <p class="supporting-text">I’m a software developer! I can help you build an amazing product,
-                        feature or
-                        website!
-                        Look through some of my work experience, follow the waves! If you like what you see and have a
-                        project
-                        you need
-                        coded, don’t hestiate to contact me, and we can surf the data seas together, for the best
-                        outcome
-                        possible!</p>
+                        feature or website! Look through some of my work experience, follow the waves! If you like what you see and have aproject you need coded, don’t hestiate to contact me, and we can surf the data seas together, for the best outcome possible!</p>
 
                     <!-- Highlight with icons-->
                     <div class="call-to-action">LET'S CONNECT</div>
                     <div class="icons">
                         <!-- LinkedIn, Github, Angellist, Medium, Twitter-->
-                        <a href="https://twitter.com/CrystAlline_K42">
-                            <img class="social-icon" src="/assets/icons/linkedin.svg" alt="">
-                        </a>
-                        <a href="https://github.com/CrystallineButterfly">
-                            <img class="social-icon" src="/assets/icons/github.svg" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                            <img class="social-icon" src="/assets/icons/angellist.svg" alt="">
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                            <img class="social-icon" src="/assets/icons/medium.svg" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                            <img class="social-icon" src="/assets/icons/twitter.svg" alt="">
-                        </a>
+                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="/assets/icons/linkedin.svg" alt=""></a>
+                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="/assets/icons/github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"> <img class="social-icon" src="/assets/icons/angellist.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/medium.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/twitter.svg" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="portfolio-section">
-        <div class="portfolio">
+    <!-- THE WORK-PORTFOLIO SECTION -->
+    <section>
+        <div class="container container-small">
             <div class="project grid">
                 <div class="project-img">
                     <img class="project-img" src="/assets/projects/project-1.png" alt="project-img">
@@ -86,7 +68,7 @@
                     <h3 class="project-title">Tonic</h3>
                     <div class="project-meta">
                         <div class="project-tag">Canopy</div>
-                        <img src="/assets/Counter.svg" alt="points"> <!-- Nice work mate-->
+                        <img src="/assets/Counter.svg" alt="points">
                         <div class="project-tech">Back End Dev</div>
                         <img src="/assets/Counter.svg" alt="points">
                         <div class="project-year">2015</div>
@@ -94,11 +76,6 @@
             
                     <p class="project-desc">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                     <div class="tags">
-                        <!-- <ul class="tag">
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
-                        </ul> -->
                         <div class="tag">html</div>
                         <div class="tag">css</div>
                         <div class="tag">javascript</div>
@@ -107,7 +84,8 @@
                 </div>
             </div>
 
-            <div class="project grid">
+                <!-- 2ND WORK IMAGE -->
+            <div class="project grid reverse">
                 <div class="project-info">
                     <h3 class="project-title">Multi-Post Stories</h3>
                     <div class="project-meta">
@@ -132,6 +110,7 @@
                 
             </div>
 
+                <!-- 3RD WORK IMAGE -->
             <div class="project grid">
                 <div class="project-img">
                     <img class="project-img" src="snapshot.svg" alt="project-img">
@@ -147,18 +126,21 @@
                     </div>
 
                     
-            
                     <p class="project-desc">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                    <ul>
+                        <li>
                     <div class="tags">
                         <div class="tag">html</div>
                         <div class="tag">css</div>
                         <div class="tag">javascript</div>
                     </div>
+                    </li>
+                    </ul>
                     <a href="#" class="see-project">See Project</a> <!-- Chose Anchor(Link/URL) tag so that we can link it later-->
                 </div>
             </div>
 
-            <div class="project grid"> <!-- We need margin top & bottom to add even spacing-->
+            <div class="project grid reverse"> <!-- We need margin top & bottom to add even spacing-->
                 <div class="project-info">
                     <h3 class="project-title">Uber Navigation</h3>
                     <div class="project-meta">
@@ -186,102 +168,120 @@
         
     </section>
 
+    <!-- ABOUT MYSELF SECTION -->
+    <section class="about-section">
+        <div class="container">
+            <div class="flex-about">
+                <div class="about-info">
+                    <h2 class="heading">about <br /> Myself</h2>
+                    <p class="about-bio">I’m a software developer! I can help you build an amazing product, feature or website! Look through some of my work experience, follow the waves! If you like what you see and have a project you need coded, don’t hestiate to contact me, and we can surf the data seas together, for the best outcome possible!</p>
+                    <div class="call-to-action">LET'S CONNECT</div>
+                    <div class="icons">
+                        <!-- LinkedIn, Github, Angellist, Medium, Twitter-->
+                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="/assets/icons/linkedin.svg" alt=""></a>
+                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="/assets/icons/github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/angellist.svg" alt=""></a>          
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/medium.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/twitter.svg" alt=""></a>
+                    </div>
+                    <a href="#" class="button">Get My Resume</a>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="open">
+                        <div class="skill-trigger">
+                            <h4>Languages</h4>
+                            <img class="chevron-open" src="/assets/icons/chevron.svg" alt="">
+                        </div>
 
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/js.png" alt="">
+                                    <div class="skill-name">Javascript</div>
+                                </div>
+                            </li>
 
-<!-- 
-    <main class="container">
-        <div class="grid1">
-        <img src="snapshot.svg" alt="background-img" class="background-img">
-    </div>
-      <div class="works-header">
-          <h2>Tonic</h2>
-          <ul>
-              <li>CANOPY</li>
-              <li>Back End Dev</li>
-              <li>2015</li>
-          </ul>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <ul>
-              <li>html</li>
-              <li>css</li>
-              <li>javaScript</li>
-          </ul>
-          <button>See Project</button>
-          </div>
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/html.png" alt="">
+                                    <div class="skill-name">HTML</div>
+                                </div>
+                            </li>
 
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/css.png" alt="">
+                                    <div class="skill-name">CSS</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div class="closed">
+                        <div class="skill-trigger">
+                            <h4>Frameworks</h4>
+                            <img class="chevron-closed" src="/assets/icons/chevron.svg" alt="">
+                        </div>
+                    
+                        <ul class="skills-list hide">
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/js.png" alt="">
+                                    <div class="skill-name">Javascript</div>
+                                </div>
+                            </li>
+                    
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/html.png" alt="">
+                                    <div class="skill-name">HTML</div>
+                                </div>
+                            </li>
+                    
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/css.png" alt="">
+                                    <div class="skill-name">CSS</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div class="closed">
+                        <div class="skill-trigger">
+                            <h4>Skills</h4>
+                            <img class="chevron-closed" src="/assets/icons/chevron.svg" alt="">
+                        </div>
 
+                        <ul class="skills-list hide">
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/js.png" alt="">
+                                    <div class="skill-name">Javascript</div>
+                                </div>
+                            </li>
 
-    </header>
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/html.png" alt="">
+                                    <div class="skill-name">HTML</div>
+                                </div>
+                            </li>
 
--->
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/css.png" alt="">
+                                    <div class="skill-name">CSS</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        
+        </div>
+    </section>
 
 </body>
-
 </html>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About myself</title>
-    <script src="https://kit.fontawesome.com/d6cd3c7604.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-    </header>
-
-    <!-- PAGE ABOUT ME-->
-
-    <div class="about-container">
-        <div class="container-about">
-            <div class="headline-about">
-                <h1 class="heading-about-1">About me; <br /> Who am I?</h1>
-                <p class="bio">I’m a software developer! I can help you build an amazing product,
-                    feature or
-                    website!
-                    Look through some of my work experience, follow the waves! If you like what you see and have a
-                    project
-                    you need
-                    coded, don’t hestiate to contact me, and we can surf the data seas together, for the best
-                    outcome
-                    possible!</p>
-
-                <!-- Highlight with icons-->
-                <div class="call-to-action-1">GET MY RESUME</div>
-                <div class="icons2">
-                    <!-- LinkedIn, Github, Angellist, Medium, Twitter-->
-                    <a href="https://twitter.com/CrystAlline_K42">
-                        <img class="social-icon" src="/assets/icons/linkedin.svg" alt="">
-                    </a>
-                    <a href="https://github.com/CrystallineButterfly">
-                        <img class="social-icon" src="/assets/icons/github.svg" alt="">
-                    </a>
-                    <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                        <img class="social-icon" src="/assets/icons/angellist.svg" alt="">
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                        <img class="social-icon" src="/assets/icons/medium.svg" alt="">
-                    </a>
-                    <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                        <img class="social-icon" src="/assets/icons/twitter.svg" alt="">
-                    </a>
-
-
-
-                </div>
-
-            </div>
-        </div>

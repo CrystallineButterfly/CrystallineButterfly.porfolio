@@ -4,22 +4,39 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  background-color: #f4f5f7;
 }
 
-.section {
+/* SECTIONS & CONTAINERS */
+
+header {
+  margin: 0;
+  padding: 1rem 3%;
+  background: #fff;
+}
+
+section {
+  margin: 0;
+  padding: 5rem 3%;
+}
+
+.hero-section {
   padding: 0 3%;
+  background-color: #fff;
   background-image: url(/assets/header-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 0 0 0 12rem;
+}
+
+.about-section {
+  background-color: #fff;
 }
 
 .container {
   max-width: 80rem;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  overflow: auto; /* this allows elements to overflow out of the bounding box */
 }
 
 .container-small {
@@ -27,6 +44,82 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-info {
+  max-width: 40%;
+}
+
+.skills-wrapper {
+  width: 50%;
+}
+
+.skills-list {
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.skill-item {
+  background-color: #f7f7f9;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  width: 7.625rem;
+  height: 7.5rem;
+  margin: 0 0.75rem 0 0;
+}
+
+.chevron-closed {
+  transform: rotate(-90deg);
+}
+
+ul.hide {
+  display: none !important;
+}
+
+.closed {
+  padding: 1.5rem 0;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #dfe1e6;
+}
+
+.skill-badge {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1;
+}
+
+.skill-name {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #253858;
+  margin: 0.75rem 0;
+}
+
+.skill-trigger {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5rem;
+  font-weight: 400;
+  color: #344563;
 }
 
 .nav-container {
@@ -69,8 +162,21 @@ h1.heading {
   font-weight: 700;
 }
 
+h2.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #091e42;
+  text-transform: capitalize;
+}
+
 p.supporting-text {
   font-size: 1.25rem;
+  font-weight: 400;
+  color: #344563;
+}
+
+p.about-bio {
+  font-size: 1rem;
   font-weight: 400;
   color: #344563;
 }
@@ -85,7 +191,7 @@ p.supporting-text {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height-step: 24px;
   color: #7f8cff;
   justify-content: space-between;
   margin: 2rem 0 1rem 0;
@@ -93,6 +199,7 @@ p.supporting-text {
 
 .icons {
   display: flex;
+  margin: 0 0 2rem 0;
 }
 
 .social-icon {
@@ -136,7 +243,7 @@ p.supporting-text {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
+  line-height-step: 20px;
   align-items: center;
   text-align: center;
 }
@@ -145,7 +252,85 @@ p.supporting-text {
   display: none;
 }
 
+.project,
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  margin: 4.438rem 0;
+}
+
 @media screen and (max-width: 768px) {
+  .skills-wrapper {
+    width: 100%;
+  }
+
+  .skills-list {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+
+  .skill-name {
+    margin: 0 1rem;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #f7f7f9;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    height: auto;
+    margin: 0 0 0.75rem  0;
+  }
+
+  .about-info {
+    max-width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .flex-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .portfolio {
+    margin: 0 auto;
+    padding: 5rem 3%;
+  }
+
+  .project,
+  .grid {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    margin: 4.438rem 0;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    margin: 4.438rem 0;
+  }
+
   .toolbar {
     display: none;
   }
@@ -172,51 +357,21 @@ p.supporting-text {
     background-size: cover;
     background-position: center;
   }
-
-  .project, .grid {
-    display : flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-    border: 1px solid #DFE1E6;
-    background-color: #fff;
-    margin: 4.438rem 0;
-
-  }
 }
 
-
-.works-header { 
-  display: grid;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  width: 18.4375rem;
-  height: 36px;
-  left: 0px;
-  top: 0px;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.75rem;
-  color: #172B4D;
-}
-
-.portfolio { 
+.portfolio {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 8.875rem;
-
-
+  padding: 8.875rem 3%;
 }
 
 .portfolio-section {
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 
 .project-img {
   display: inline-block;
   width: 100%;
-  
 }
 
 .project-info {
@@ -227,20 +382,20 @@ p.supporting-text {
   padding: 1.5rem;
 }
 
-.project-title { 
+.project-title {
   align-content: left;
   justify-content: left;
   font-weight: 700;
   grid-auto-flow: row;
   font-size: 32px;
-  line-height: 44px;
-  font: 'Poppins', sans-serif;
+  line-height-step: 44px;
   padding: 10 3%;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.project-meta { 
+.project-meta {
   display: flex;
+  flex-wrap: wrap;
   justify-content: start;
   align-items: center;
 }
@@ -248,19 +403,17 @@ p.supporting-text {
 .project-tag {
   font-weight: 500;
   text-transform: uppercase;
-  text-size-adjust: 18px; /* to be converted to REMs*/
+  text-size-adjust: 18px; /* to be converted to REMs */
   color: #344563;
-  margin: 0 12px 0 0; /* Change 12px to REMs*/
-
+  margin: 0 12px 0 0; /* Change 12px to REMs */
 }
 
-.project-tech, .project-year {
-  color: #6B778C;
+.project-tech,
+.project-year {
+  color: #6b778c;
   font-weight: 400;
-  font-size: 18px; /* to change 18px to REMs*/
+  font-size: 18px; /* to change 18px to REMs */
   margin: 0 12px;
-
-
 }
 
 .project-desc {
@@ -268,7 +421,6 @@ p.supporting-text {
   font-weight: 400;
   color: #344563;
   margin: 1rem 0 0 0;
-
 }
 
 .tags {
@@ -278,73 +430,74 @@ p.supporting-text {
   align-items: center;
   margin: 1.5rem 0 2rem 0;
 }
+
 .tag {
-  font-size: .75rem;
-  color: #6070FF;
+  font-size: 0.75rem;
+  color: #6070ff;
   font-weight: 500;
-  padding: 0.25rem .75rem;
-  background-color: #EBEBFF;
+  padding: 0.25rem 0.75rem;
+  background-color: #ebebff;
   border-radius: 0.5rem;
   margin: 0 0.5rem 0 0;
 }
 
-
 a.see-project {
-  text-size-adjust: 1.0625rem; 
-  color: #396DF2;
+  margin: 1rem 0;
+  text-size-adjust: 1.0625rem;
+  color: #396df2;
   text-decoration: none;
-  padding: .75rem; /*Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
-  border: .0625rem solid #6070FF; /*Border Size, Type , Color*/
+  padding: 0.75rem; /* Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
+  border: 0.0625rem solid #6070ff; /* Border Size, Type , Color */
   border-radius: 0.5rem;
-  transition: all 0.4s ease-in-out; /*400ms*/
+  transition: all 0.4s ease-in-out; /* 400ms */
+}
+
+a.button {
+  text-size-adjust: 1.0625rem;
+  color: #396df2;
+  text-decoration: none;
+  padding: 0.75rem; /* Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
+  border: 0.0625rem solid #6070ff; /* Border Size, Type , Color */
+  border-radius: 0.5rem;
+  transition: all 0.4s ease-in-out; /* 400ms */
 }
 
 a.see-project:hover {
   text-size-adjust: 17px;
-  background-color: #396DF2;
+  background-color: #396df2;
   color: #fff;
   text-decoration: none;
   padding: 12px;
-  box-shadow: 0px .5rem 1rem rgba(64, 83, 252, 0.24);
-  /*Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
-  border: 1px solid #6070FF;
-  /*Border Size, Type , Color*/
+  box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
+  border: 1px solid #6070ff;
   border-radius: 0.5rem;
 }
 
 a.see-project:focus {
   text-size-adjust: 17px;
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: #fff;
   text-decoration: none;
   padding: 12px;
-  /*Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
-  border: 1px solid #2230D2;
-  /*Border Size, Type , Color*/
+  border: 1px solid #2230d2;
   border-radius: 0.5rem;
-  outline: 1px #396DF2;
+  outline: 1px #396df2;
 }
 
-.project, .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1.5rem;
-  padding: 1.5rem;
-  border-radius: 1.5rem;
-  border: 1px solid #DFE1E6;
-  background-color: #fff;
-  margin: 4.438rem 0;
-
-}
-.works-header { 
+.works-header {
   display: grid;
   padding: 18px;
 }
 
-
-/*Portfolio Styles Section*/
+/* Portfolio Styles Section */
 
 section .portfolio {
   max-width: 80rem;
   margin: 0 auto;
+}
+
+/* About me page. */
+
+.about-container {
+  display: flex;
 }
