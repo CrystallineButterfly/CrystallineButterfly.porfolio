@@ -1,89 +1,287 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
     <script src="https://kit.fontawesome.com/d6cd3c7604.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <!--HERO SECTION -->
-    <header class="nav-container">
-        <div class="logo">
-            My logo
+    <header>
+        <div class="container main-nav">
+            <div class="logo">The Logo</div>
+            <nav class="toolbar">
+                <a href="#" class="nav-link">Portfolio</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
         </div>
-        <nav class="toolbar">
-            <div class="nav-link">Portfolio</div>
-            <div class="nav-link">About</div>
-            <div class="nav-link">Contact</div>    
-        </nav>
-            
             <!-- MOBILE RESPONSIVE-->
-              <nav class="mobile-menu">
-              <div class="mylogo">My Logo</div>
-              <div class="hamburger-menu">
-              <img src="Union.png" alt="hamburger">
-              </div>
-              </nav>
-            
-
+            <div>
+            <nav class="mobile-menu">
+                <!--Mobile Nav-->
+                <div class="mylogo">My Logo</div>
+                <div class="hamburger-menu"><img src="Union.png" alt="hamburger"></div>
+            </nav>
+            </div>
+        
     </header>
-    
+
     <!-- HERO SECTION -->
-    <section class="section">
+    <section class="hero-section">
         <div class="container">
             <div class="container-small">
                 <div class="headline-section">
                     <h1 class="heading">I am Kell; <br /> Welcome all Earthlings!</h1>
-                    <p class="supporting-text">I’m a software developer! I can help you build an amazing product, feature or
-                        website!
-                        Look through some of my work experience, follow the waves! If you like what you see and have a project
-                        you need
-                        coded, don’t hestiate to contact me, and we can surf the data seas together, for the best outcome
-                        possible!</p>
-        
+                    <p class="supporting-text">I’m a software developer! I can help you build an amazing product,
+                        feature or website! Look through some of my work experience, follow the waves! If you like what you see and have aproject you need coded, don’t hestiate to contact me, and we can surf the data seas together, for the best outcome possible!</p>
+
                     <!-- Highlight with icons-->
                     <div class="call-to-action">LET'S CONNECT</div>
                     <div class="icons">
                         <!-- LinkedIn, Github, Angellist, Medium, Twitter-->
-                        <a href="https://twitter.com/CrystAlline_K42">
-                            <img class="social-icon" src="/assets/icons/linkedin.svg" alt="">
-                        </a>
-                        <a href="https://github.com/CrystallineButterfly">
-                            <img class="social-icon" src="/assets/icons/github.svg" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                            <img class="social-icon" src="/assets/icons/angellist.svg" alt="">
-                        </a>
-        
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                            <img class="social-icon" src="/assets/icons/medium.svg" alt="">
-                        </a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/">
-                            <img class="social-icon" src="/assets/icons/twitter.svg" alt="">
-                        </a>
-        
-        
-        
+                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="/assets/icons/linkedin.svg" alt=""></a>
+                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="/assets/icons/github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"> <img class="social-icon" src="/assets/icons/angellist.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/medium.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/twitter.svg" alt=""></a>
                     </div>
-        
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- THE WORK-PORTFOLIO SECTION -->
+    <section>
+        <div class="container container-small">
+            <div class="project grid">
+                <div class="project-img">
+                    <img class="project-img" src="/assets/projects/project-1.png" alt="project-img">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Tonic</h3>
+                    <div class="project-meta">
+                        <div class="project-tag">Canopy</div>
+                        <img src="/assets/Counter.svg" alt="points">
+                        <div class="project-tech">Back End Dev</div>
+                        <img src="/assets/Counter.svg" alt="points">
+                        <div class="project-year">2015</div>
+                    </div>
+            
+                    <p class="project-desc">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <div class="tags">
+                        <div class="tag">html</div>
+                        <div class="tag">css</div>
+                        <div class="tag">javascript</div>
+                    </div>
+                    <a href="#" class="see-project">See Project</a> <!-- Chose Anchor(Link/URL) tag so that we can link it later-->
+                </div>
+            </div>
+
+                <!-- 2ND WORK IMAGE -->
+            <div class="project grid reverse">
+                <div class="project-info">
+                    <h3 class="project-title">Multi-Post Stories</h3>
+                    <div class="project-meta">
+                        <div class="project-tag">Facebook</div>
+                        <img src="/assets/Counter.svg" alt="points">
+                        <div class="project-tech">Full Stack Dev</div>
+                        <img src="/assets/Counter.svg" alt="points">
+                        <div class="project-year">2015</div>
+                    </div>
+                
+                    <p class="project-desc">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                    <div class="tags">
+                        <div class="tag">html</div>
+                        <div class="tag">css</div>
+                        <div class="tag">javascript</div>
+                    </div>
+                    <a href="#" class="see-project">See Project</a> <!-- Chose Anchor(Link/URL) tag so that we can link it later-->
+                </div>
+                <div class="project-img">
+                    <img class="project-img" src="/assets/projects/project-3.png" alt="project-img">
+                </div>
+                
+            </div>
+
+                <!-- 3RD WORK IMAGE -->
+            <div class="project grid">
+                <div class="project-img">
+                    <img class="project-img" src="snapshot.svg" alt="project-img">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Facebook 360</h3>
+                    <div class="project-meta">
+                        <div class="project-tag">Facebook</div>
+                        <img src="/assets/Counter.svg" alt="points">
+                        <div class="project-tech">Back End Dev</div>
+                        <img src="/assets/Counter.svg" alt="points">
+                        <div class="project-year">2015</div>
+                    </div>
+
+                    
+                    <p class="project-desc">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                    <ul>
+                        <li>
+                    <div class="tags">
+                        <div class="tag">html</div>
+                        <div class="tag">css</div>
+                        <div class="tag">javascript</div>
+                    </div>
+                    </li>
+                    </ul>
+                    <a href="#" class="see-project">See Project</a> <!-- Chose Anchor(Link/URL) tag so that we can link it later-->
+                </div>
+            </div>
+
+            <div class="project grid reverse"> <!-- We need margin top & bottom to add even spacing-->
+                <div class="project-info">
+                    <h3 class="project-title">Uber Navigation</h3>
+                    <div class="project-meta">
+                        <div class="project-tag">Uber</div>
+                        <img src="/assets/Counter.svg" alt="points"> 
+                        <div class="project-tech">Lead Developer</div>
+                        <img src="/assets/Counter.svg" alt="points">
+                        <div class="project-year">2018</div>
+                    </div>
+            
+                    <p class="project-desc">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <div class="tags">
+                        <div class="tag">html</div>
+                        <div class="tag">css</div>
+                        <div class="tag">javascript</div>
+                    </div>
+                    <a href="#" class="see-project">See Project</a> <!-- Chose Anchor(Link/URL) tag so that we can link it later-->
+                </div>
+
+                <div class="project-img">
+                    <img class="project-img" src="/assets/projects/project-2.png" alt="project-img">
+                </div>
+            </div>
+        </div>
         
-        
-        
-        
+    </section>
+
+    <!-- ABOUT MYSELF SECTION -->
+    <section class="about-section">
+        <div class="container">
+            <div class="flex-about">
+                <div class="about-info">
+                    <h2 class="heading">about <br /> Myself</h2>
+                    <p class="about-bio">I’m a software developer! I can help you build an amazing product, feature or website! Look through some of my work experience, follow the waves! If you like what you see and have a project you need coded, don’t hestiate to contact me, and we can surf the data seas together, for the best outcome possible!</p>
+                    <div class="call-to-action">LET'S CONNECT</div>
+                    <div class="icons">
+                        <!-- LinkedIn, Github, Angellist, Medium, Twitter-->
+                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="/assets/icons/linkedin.svg" alt=""></a>
+                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="/assets/icons/github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/angellist.svg" alt=""></a>          
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/medium.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="/assets/icons/twitter.svg" alt=""></a>
+                    </div>
+                    <a href="#" class="button">Get My Resume</a>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="open">
+                        <div class="skill-trigger">
+                            <h4>Languages</h4>
+                            <img class="chevron-open" src="/assets/icons/chevron.svg" alt="">
+                        </div>
+
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/js.png" alt="">
+                                    <div class="skill-name">Javascript</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/html.png" alt="">
+                                    <div class="skill-name">HTML</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/css.png" alt="">
+                                    <div class="skill-name">CSS</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="closed">
+                        <div class="skill-trigger">
+                            <h4>Frameworks</h4>
+                            <img class="chevron-closed" src="/assets/icons/chevron.svg" alt="">
+                        </div>
+                    
+                        <ul class="skills-list hide">
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/js.png" alt="">
+                                    <div class="skill-name">Javascript</div>
+                                </div>
+                            </li>
+                    
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/html.png" alt="">
+                                    <div class="skill-name">HTML</div>
+                                </div>
+                            </li>
+                    
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/css.png" alt="">
+                                    <div class="skill-name">CSS</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="closed">
+                        <div class="skill-trigger">
+                            <h4>Skills</h4>
+                            <img class="chevron-closed" src="/assets/icons/chevron.svg" alt="">
+                        </div>
+
+                        <ul class="skills-list hide">
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/js.png" alt="">
+                                    <div class="skill-name">Javascript</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/html.png" alt="">
+                                    <div class="skill-name">HTML</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="skill-item">
+                                    <img class="skill-badge" src="/assets/projects/css.png" alt="">
+                                    <div class="skill-name">CSS</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
         
         </div>
     </section>
-    
-    
-    
-    
-</body>
 
+</body>
 </html>
