@@ -537,7 +537,7 @@ section .portfolio {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 2rem;
-  width: 447px;
+  width: 100%;
 }
 
 #contact-section p {
