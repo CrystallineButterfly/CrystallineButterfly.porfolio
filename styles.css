@@ -133,8 +133,6 @@ ul.hide {
   align-items: center;
   gap: 0.5rem;
   flex-direction: row;
-
-  /* equal to 8px */
 }
 
 .logo {
@@ -666,7 +664,11 @@ form label textarea {
 input {
   margin: 1em 0;
   padding: 1rem;
+<<<<<<< HEAD
   border: 1px solid #d0d9d4;
+=======
+  border: 1px solid #e0d9D4;
+>>>>>>> e086ccba0f3d260717429686cc22e83121332cd8
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -687,7 +689,11 @@ textarea {
 #contact-section button {
   display: block;
   margin: 0 auto;
+<<<<<<< HEAD
   background: #fff;
+=======
+  background: #ffffff;
+>>>>>>> e086ccba0f3d260717429686cc22e83121332cd8
   border-radius: 8px;
   flex-direction: row;
   align-items: center;
