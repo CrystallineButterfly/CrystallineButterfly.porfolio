@@ -94,7 +94,7 @@ ul.hide {
 
 .closed {
   padding: 1.5rem 0;
-  border-bottom: 1px;
+  border-bottom: .0625rem;
   border-style: solid;
   border-color: #dfe1e6;
 }
@@ -125,30 +125,22 @@ ul.hide {
 .nav-container {
   max-width: 80rem;
   margin: 0 auto;
-
-  /* to centre the div */
   padding: 1rem 3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
   flex-direction: row;
-
-  /* equal to 8px */
 }
 
 .logo {
-  padding: 10px 12px;
-
-  /* to be converted to REM */
-  font-size: 18px;
+  padding: .625rem .75rem;
+  font-size: 1.125rem;
   color: #6070ff;
 }
 
 .nav-link {
-  padding: 10px 12px;
-
-  /* to be converted to REM */
+  padding: .625rem .75rem;
   margin: 0 0.5rem 0 0;
   color: #344563;
   font-size: 1rem;
@@ -157,8 +149,6 @@ ul.hide {
 
 h1.heading {
   font-size: 3rem;
-
-  /* equal to 48px */
   font-weight: 700;
 }
 
@@ -190,8 +180,8 @@ p.about-bio {
 .call-to-action {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 16px;
-  line-height-step: 24px;
+  font-size: 1rem;
+  line-height-step: 1.5rem;
   color: #7f8cff;
   justify-content: space-between;
   margin: 2rem 0 1rem 0;
@@ -207,7 +197,7 @@ p.about-bio {
 }
 
 .headline-section {
-  margin: 12px 0;
+  margin: .75rem 0;
   padding: 10rem 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -242,7 +232,7 @@ p.about-bio {
   font: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height-step: 20px;
   align-items: center;
   text-align: center;
@@ -316,7 +306,7 @@ p.about-bio {
     flex-direction: column;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    border: 1px solid #dfe1e6;
+    border: .0625rem solid #dfe1e6;
     background-color: #fff;
     margin: 4.438rem 0;
   }
@@ -326,7 +316,7 @@ p.about-bio {
     flex-direction: column-reverse;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    border: 1px solid #dfe1e6;
+    border: .0625rem solid #dfe1e6;
     background-color: #fff;
     margin: 4.438rem 0;
   }
@@ -387,8 +377,8 @@ p.about-bio {
   justify-content: left;
   font-weight: 700;
   grid-auto-flow: row;
-  font-size: 32px;
-  line-height-step: 44px;
+  font-size: 2rem;
+  line-height-step: 2.75rem;
   padding: 10 3%;
   color: #172b4d;
 }
@@ -403,17 +393,17 @@ p.about-bio {
 .project-tag {
   font-weight: 500;
   text-transform: uppercase;
-  text-size-adjust: 18px; /* to be converted to REMs */
+  text-size-adjust: 1.125rem;
   color: #344563;
-  margin: 0 12px 0 0; /* Change 12px to REMs */
+  margin: 0 .75rem 0 0;
 }
 
 .project-tech,
 .project-year {
   color: #6b778c;
   font-weight: 400;
-  font-size: 18px; /* to change 18px to REMs */
-  margin: 0 12px;
+  font-size: 1.125rem; /* to change 18px to REMs */
+  margin: 0 .75rem;
 }
 
 .project-desc {
@@ -467,26 +457,26 @@ a.see-project:hover {
   background-color: #396df2;
   color: #fff;
   text-decoration: none;
-  padding: 12px;
+  padding: .75rem;
   box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
-  border: 1px solid #6070ff;
+  border: .0625rem solid #6070ff;
   border-radius: 0.5rem;
 }
 
 a.see-project:focus {
-  text-size-adjust: 17px;
+  text-size-adjust: 1.0625rem;
   background-color: #2230d2;
   color: #fff;
   text-decoration: none;
-  padding: 12px;
-  border: 1px solid #2230d2;
+  padding: .75rem;
+  border: .0625rem solid #2230d2;
   border-radius: 0.5rem;
-  outline: 1px #396df2;
+  outline: .0625rem #396df2;
 }
 
 .works-header {
   display: grid;
-  padding: 18px;
+  padding: 1.125rem;
 }
 
 /* Portfolio Styles Section */
@@ -515,9 +505,7 @@ section .portfolio {
   border-top-right-radius: 7.1875rem;
   background-image: url(/assets/header-bg.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-
-  /* background-position: 20% 40%; */
+  background-size: center;
 }
 
 #contact-section > h2 {
@@ -525,8 +513,8 @@ section .portfolio {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   color: #fff;
   display: flex;
   align-items: center;
@@ -542,7 +530,7 @@ section .portfolio {
 
 #contact-section p {
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-transform: none;
   text-align: center;
   color: white;
@@ -552,21 +540,21 @@ section .portfolio {
 .input-tag {
   margin: 1rem 0;
   padding: 1rem;
-  border: 1px solid #d0d9d4;
+  border: .0625rem solid #d0d9d4;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: .25rem;
 }
 
 textarea {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   border: 1px solid #60c095;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: .25rem;
   padding: 1rem;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: .9375rem;
+  line-height: 1.5rem;
   color: #091e42;
 }
 
@@ -574,9 +562,9 @@ textarea {
   display: block;
   margin: 0 auto;
   background: #fff;
-  border-radius: 8px;
+  border-radius: .5rem;
   flex-direction: row;
   align-items: center;
-  padding: 12px 16px;
+  padding: .75rem 1rem;
   color: #6070ff;
 }
