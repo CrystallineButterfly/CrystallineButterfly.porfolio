@@ -94,7 +94,7 @@ ul.hide {
 
 .closed {
   padding: 1.5rem 0;
-  border-bottom: 1px;
+  border-bottom: 0.0625rem;
   border-style: solid;
   border-color: #dfe1e6;
 }
@@ -125,30 +125,22 @@ ul.hide {
 .nav-container {
   max-width: 80rem;
   margin: 0 auto;
-
-  /* to centre the div */
   padding: 1rem 3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
   flex-direction: row;
-
-  /* equal to 8px */
 }
 
 .logo {
-  padding: 10px 12px;
-
-  /* to be converted to REM */
-  font-size: 18px;
+  padding: 0.625rem 0.75rem;
+  font-size: 1.125rem;
   color: #6070ff;
 }
 
 .nav-link {
-  padding: 10px 12px;
-
-  /* to be converted to REM */
+  padding: 0.625rem 0.75rem;
   margin: 0 0.5rem 0 0;
   color: #344563;
   font-size: 1rem;
@@ -157,8 +149,6 @@ ul.hide {
 
 h1.heading {
   font-size: 3rem;
-
-  /* equal to 48px */
   font-weight: 700;
 }
 
@@ -190,8 +180,8 @@ p.about-bio {
 .call-to-action {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 16px;
-  line-height-step: 24px;
+  font-size: 1rem;
+  line-height-step: 1.5rem;
   color: #7f8cff;
   justify-content: space-between;
   margin: 2rem 0 1rem 0;
@@ -207,7 +197,7 @@ p.about-bio {
 }
 
 .headline-section {
-  margin: 12px 0;
+  margin: 0.75rem 0;
   padding: 10rem 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -242,7 +232,7 @@ p.about-bio {
   font: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height-step: 20px;
   align-items: center;
   text-align: center;
@@ -316,7 +306,7 @@ p.about-bio {
     flex-direction: column;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    border: 1px solid #dfe1e6;
+    border: 0.0625rem solid #dfe1e6;
     background-color: #fff;
     margin: 4.438rem 0;
   }
@@ -326,7 +316,7 @@ p.about-bio {
     flex-direction: column-reverse;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    border: 1px solid #dfe1e6;
+    border: 0.0625rem solid #dfe1e6;
     background-color: #fff;
     margin: 4.438rem 0;
   }
@@ -387,8 +377,8 @@ p.about-bio {
   justify-content: left;
   font-weight: 700;
   grid-auto-flow: row;
-  font-size: 32px;
-  line-height-step: 44px;
+  font-size: 2rem;
+  line-height-step: 2.75rem;
   padding: 10 3%;
   color: #172b4d;
 }
@@ -403,17 +393,17 @@ p.about-bio {
 .project-tag {
   font-weight: 500;
   text-transform: uppercase;
-  text-size-adjust: 18px; /* to be converted to REMs */
+  text-size-adjust: 1.125rem;
   color: #344563;
-  margin: 0 12px 0 0; /* Change 12px to REMs */
+  margin: 0 0.75rem 0 0;
 }
 
 .project-tech,
 .project-year {
   color: #6b778c;
   font-weight: 400;
-  font-size: 18px; /* to change 18px to REMs */
-  margin: 0 12px;
+  font-size: 1.125rem; /* to change 18px to REMs */
+  margin: 0 0.75rem;
 }
 
 .project-desc {
@@ -467,26 +457,26 @@ a.see-project:hover {
   background-color: #396df2;
   color: #fff;
   text-decoration: none;
-  padding: 12px;
+  padding: 0.75rem;
   box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
-  border: 1px solid #6070ff;
+  border: 0.0625rem solid #6070ff;
   border-radius: 0.5rem;
 }
 
 a.see-project:focus {
-  text-size-adjust: 17px;
+  text-size-adjust: 1.0625rem;
   background-color: #2230d2;
   color: #fff;
   text-decoration: none;
-  padding: 12px;
-  border: 1px solid #2230d2;
+  padding: 0.75rem;
+  border: 0.0625rem solid #2230d2;
   border-radius: 0.5rem;
-  outline: 1px #396df2;
+  outline: 0.0625rem #396df2;
 }
 
 .works-header {
   display: grid;
-  padding: 18px;
+  padding: 1.125rem;
 }
 
 /* Portfolio Styles Section */
@@ -500,4 +490,336 @@ section .portfolio {
 
 .about-container {
   display: flex;
+}
+
+/* Contact me section */
+
+#contact-section {
+  background: #6070ff;
+  padding-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 4.6875rem;
+  border-top-right-radius: 7.1875rem;
+  background-image: url(/assets/header-bg.svg);
+  background-repeat: no-repeat;
+  background-size: center;
+}
+
+#contact-section > h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+#contact-section p {
+  font-style: normal;
+  font-size: 1.25rem;
+  text-transform: none;
+  text-align: center;
+  color: white;
+  padding: 0 1rem;
+}
+
+.input-tag {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 0.0625rem solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+textarea {
+  width: 100%;
+  height: 6.25rem;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  color: #091e42;
+}
+
+#contact-section button {
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  color: #6070ff;
+}
+
+/* Animations */
+
+.spinner {
+  background-color: #396df2;
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: sk-rotate 2s infinite linear;
+  animation: sk-rotate 2s infinite linear;
+}
+
+.dot1,
+.dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes sk-rotate {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+/* Animation 2 */
+
+.sk-folding-cube {
+  background-color: #396df2;
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.sk-folding-cube .sk-cube::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  -webkit-animation: sk-foldcubeangle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
+}
+
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
+}
+
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
+}
+
+.sk-folding-cube .sk-cube2::before {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-folding-cube .sk-cube3::before {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.sk-folding-cube .sk-cube4::before {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+/* animation 3 */
+
+.spinner1 {
+  margin: 6.25rem auto;
+  background-color: #396df2;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+}
+
+.cube1,
+.cube2 {
+  background-color: #d0d9d4;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+  animation: sk-cubemove 1.8s infinite ease-in-out;
+}
+
+.cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-cubemove {
+  25% {
+    -webkit-transform: translateX(2.625rem) rotate(-90deg) scale(0.5);
+  }
+
+  50% {
+    -webkit-transform: translateX(2.625rem) translateY(2.625rem) rotate(-180deg);
+  }
+
+  75% {
+    -webkit-transform: translateX(0) translateY(2.625rem) rotate(-270deg) scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+@keyframes sk-cubemove {
+  25% {
+    transform: translateX(2.625rem) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(2.625rem) rotate(-90deg) scale(0.5);
+  }
+
+  50% {
+    transform: translateX(2.625rem) translateY(2.625rem) rotate(-179deg);
+    -webkit-transform: translateX(2.625rem) translateY(2.625rem) rotate(-179deg);
+  }
+
+  50.1% {
+    transform: translateX(2.625rem) translateY(2.625rem) rotate(-180deg);
+    -webkit-transform: translateX(2.625rem) translateY(2.625rem) rotate(-180deg);
+  }
+
+  75% {
+    transform: translateX(0) translateY(2.625rem) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0) translateY(2.625rem) rotate(-270deg) scale(0.5);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
 }
