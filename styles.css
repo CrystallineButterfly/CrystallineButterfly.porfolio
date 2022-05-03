@@ -525,6 +525,7 @@ section .portfolio {
   justify-content: center;
   padding-bottom: 2rem;
   width: 100%;
+  align-items: center;
 }
 
 #contact-section p {
@@ -534,6 +535,7 @@ section .portfolio {
   text-align: center;
   color: #142cff;
   padding: 0 1rem;
+  width: 569px;
 }
 
 .input-tag {
@@ -542,11 +544,12 @@ section .portfolio {
   border: 0.0625rem solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 0.25rem;
+  width: 447px;
 }
 
 textarea {
-  width: 100%;
-  height: 6.25rem;
+  width: 447px;
+  height: 170px;
   border: 1px solid #60c095;
   box-sizing: border-box;
   border-radius: 0.25rem;
