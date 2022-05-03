@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+    <title>Kell's Porfolio</title>
     <script src="https://kit.fontawesome.com/d6cd3c7604.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -27,7 +27,7 @@
             <nav class="mobile-menu">
                 <!--Mobile Nav-->
                 <div class="mylogo">My Logo</div>
-                <div class="hamburger-menu"><img src=".Union.svg" alt="hamburger"></div>
+                <div class="hamburger-menu"><img src="./Union.svg" alt="hamburger"></div>
             </nav>
             </div>
         
@@ -46,11 +46,11 @@
                     <div class="call-to-action">LET'S CONNECT</div>
                     <div class="icons">
                         <!-- LinkedIn, Github, Angellist, Medium, Twitter-->
-                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="./assets/icons/twitter.svg" alt=""></a>
-                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="./assets/icons/github.svg" alt=""></a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"> <img class="social-icon" src="./assets/icons/linkedin.svg" alt=""></a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/medium.svg" alt=""></a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/angellist.svg" alt=""></a>
+                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="./assets/icons/twitter.svg" alt="twitter"></a>
+                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="./assets/icons/github.svg" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"> <img class="social-icon" src="./assets/icons/linkedin.svg" alt="linkedin"></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/medium.svg" alt="medium"></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/angellist.svg" alt="angellist"></a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                 <!-- 3RD WORK IMAGE -->
             <div class="project grid">
                 <div class="project-img">
-                    <img class="project-img" src=".snapshot.svg" alt="project-img">
+                    <img class="project-img" src="/assets/projects/Snapshoot3.svg" alt="project-img">
                 </div>
                 <div class="project-info">
                     <h3 class="project-title">Facebook 360</h3>
@@ -178,11 +178,11 @@
                     <div class="call-to-action">LET'S CONNECT</div>
                     <div class="icons">
                         <!-- LinkedIn, Github, Angellist, Medium, Twitter-->
-                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="./assets/icons/linkedin.svg" alt=""></a>
-                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="./assets/icons/github.svg" alt=""></a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/angellist.svg" alt=""></a>          
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/medium.svg" alt=""></a>
-                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/twitter.svg" alt=""></a>
+                        <a href="https://twitter.com/CrystAlline_K42"><img class="social-icon" src="./assets/icons/linkedin.svg" alt="linkedin"></a>
+                        <a href="https://github.com/CrystallineButterfly"><img class="social-icon" src="./assets/icons/github.svg" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/angellist.svg" alt="angellist"></a>          
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/medium.svg" alt="medium"></a>
+                        <a href="https://www.linkedin.com/in/kell-mcwatt-6357ab234/"><img class="social-icon" src="./assets/icons/twitter.svg" alt="twitter"></a>
                     </div>
                     <a href="#" class="button">Get My Resume</a>
                 </div>
@@ -294,14 +294,16 @@
             </p>
        
         <form id = "contact-form" action="https://formspree.io/f/myyobenv" method="post">
+            <label for="name">Name:</label>
             <input 
                 class= "input-tag" 
                 type="text" id="name" 
-                name="username" 
+                name="username"
                 required 
                 maxlength="30" 
                 placeholder="Name" 
             >
+            <label for="email">Email:</label>
             <input 
                 class= "input-tag" 
                 type="email" id="email"
