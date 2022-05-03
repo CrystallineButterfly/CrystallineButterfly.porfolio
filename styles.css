@@ -218,8 +218,8 @@ p.about-bio {
 .hamburger-menu {
   float: right;
   display: flex;
-  width: 18px;
-  height: 12px;
+  width: 1.125rem;
+  height: .75rem;
   justify-content: center;
   align-items: center;
 }
@@ -233,7 +233,7 @@ p.about-bio {
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
-  line-height-step: 20px;
+  line-height-step: 1.25rem;
   align-items: center;
   text-align: center;
 }
