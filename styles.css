@@ -182,7 +182,7 @@ p.about-bio {
   font-weight: 500;
   font-size: 1rem;
   line-height-step: 1.5rem;
-  color: #051EFF;
+  color: #051eff;
   justify-content: space-between;
   margin: 2rem 0 1rem 0;
 }
@@ -422,7 +422,7 @@ p.about-bio {
 
 .tag {
   font-size: 0.75rem;
-  color: #0017EB;
+  color: #0017eb;
   font-weight: 500;
   padding: 0.25rem 0.75rem;
   background-color: #ebebff;
@@ -532,7 +532,7 @@ section .portfolio {
   font-size: 1.25rem;
   text-transform: none;
   text-align: center;
-  color: #B3BBFF;
+  color: #b3bbff;
   padding: 0 1rem;
 }
 
@@ -565,7 +565,7 @@ textarea {
   flex-direction: row;
   align-items: center;
   padding: 0.75rem 1rem;
-  color: #001AFF;
+  color: #001aff;
 }
 
 /* Animations */
