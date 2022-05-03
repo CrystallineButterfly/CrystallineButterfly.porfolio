@@ -23,7 +23,7 @@ section {
 .hero-section {
   padding: 0 3%;
   background-color: #fff;
-  background-image: url(/assets/header-bg.svg);
+  background-image: url(./assets/header-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -218,8 +218,8 @@ p.about-bio {
 .hamburger-menu {
   float: right;
   display: flex;
-  width: 18px;
-  height: 12px;
+  width: 1.125rem;
+  height: .75rem;
   justify-content: center;
   align-items: center;
 }
@@ -233,7 +233,7 @@ p.about-bio {
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
-  line-height-step: 20px;
+  line-height-step: 1.25rem;
   align-items: center;
   text-align: center;
 }
@@ -342,7 +342,7 @@ p.about-bio {
 
   .section {
     padding: 0 3%;
-    background-image: url(/assets/header-shapes_mobile.svg);
+    background-image: url(./assets/header-shapes_mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -402,8 +402,7 @@ p.about-bio {
 .project-year {
   color: #6b778c;
   font-weight: 400;
-  font-size: 1.125rem; /* to change 18px to REMs */
-  margin: 0 0.75rem;
+  font-size: 1.125rem;
 }
 
 .project-desc {
@@ -503,7 +502,7 @@ section .portfolio {
   align-items: center;
   border-bottom-left-radius: 4.6875rem;
   border-top-right-radius: 7.1875rem;
-  background-image: url(/assets/header-bg.svg);
+  background-image: url(./assets/header-bg.svg);
   background-repeat: no-repeat;
   background-size: center;
 }
