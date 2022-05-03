@@ -23,7 +23,7 @@ section {
 .hero-section {
   padding: 0 3%;
   background-color: #fff;
-  background-image: url(/assets/header-bg.svg);
+  background-image: url(./assets/header-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -342,7 +342,7 @@ p.about-bio {
 
   .section {
     padding: 0 3%;
-    background-image: url(/assets/header-shapes_mobile.svg);
+    background-image: url(./assets/header-shapes_mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
