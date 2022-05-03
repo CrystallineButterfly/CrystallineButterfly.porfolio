@@ -136,7 +136,7 @@ ul.hide {
 .logo {
   padding: 0.625rem 0.75rem;
   font-size: 1.125rem;
-  color: #0019FA;
+  color: #0019fa;
 }
 
 .nav-link {
@@ -182,7 +182,7 @@ p.about-bio {
   font-weight: 500;
   font-size: 1rem;
   line-height-step: 1.5rem;
-  color: #7f8cff;
+  color: #051EFF;
   justify-content: space-between;
   margin: 2rem 0 1rem 0;
 }
@@ -219,7 +219,7 @@ p.about-bio {
   float: right;
   display: flex;
   width: 1.125rem;
-  height: .75rem;
+  height: 0.75rem;
   justify-content: center;
   align-items: center;
 }
@@ -422,7 +422,7 @@ p.about-bio {
 
 .tag {
   font-size: 0.75rem;
-  color: #6070ff;
+  color: #0017EB;
   font-weight: 500;
   padding: 0.25rem 0.75rem;
   background-color: #ebebff;
@@ -532,7 +532,7 @@ section .portfolio {
   font-size: 1.25rem;
   text-transform: none;
   text-align: center;
-  color: white;
+  color: #B3BBFF;
   padding: 0 1rem;
 }
 
@@ -565,7 +565,7 @@ textarea {
   flex-direction: row;
   align-items: center;
   padding: 0.75rem 1rem;
-  color: #6070ff;
+  color: #001AFF;
 }
 
 /* Animations */
