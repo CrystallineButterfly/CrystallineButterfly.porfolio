@@ -444,11 +444,6 @@ a:hover {
   background-color: #f4f5f7;
 }
 
-.project-img {
-  display: inline-block;
-  width: 100%;
-}
-
 .project-info {
   display: flex;
   flex-direction: column;
