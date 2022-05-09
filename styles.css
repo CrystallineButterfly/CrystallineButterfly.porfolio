@@ -334,6 +334,11 @@ a:hover {
   margin: 4.438rem 0;
 }
 
+.project-img {
+  display: inline-block;
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .skills-wrapper {
     width: 100%;
