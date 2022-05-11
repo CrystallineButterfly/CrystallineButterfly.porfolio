@@ -652,19 +652,28 @@ a.see-project:focus {
 
 .popup-tags {
   display: flex;
+  justify-content: space-around;
   list-style-type: none;
   align-items: baseline;
   color: #6070ff;
+  width: auto;
 }
 
 .popup-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 15px;
   background-color: #ebebff;
-  width: 80px;
+  width: auto;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .popup-button {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -737,12 +746,15 @@ a.see-project:focus {
   }
 
   .project-popup-info1 {
-    width: 50%;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-left: 20px;
     font-size: 17px;
   }
 
   .project-popup-info2 {
     margin-top: 10px;
+    width: 35%;
   }
 
   .popup-tags {
