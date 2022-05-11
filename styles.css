@@ -673,7 +673,7 @@ a.see-project:focus {
 
 .popup-button {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
 }
@@ -840,6 +840,17 @@ section .portfolio {
   box-sizing: border-box;
   border-radius: .25rem;
   width: 27.9375rem;
+}
+
+.validate-message {
+  margin-top: 2px;
+  color: white;
+  font-size: 16px;
+  height: 30px;
+}
+
+.error-message {
+  text-align: center;
 }
 
 textarea {
