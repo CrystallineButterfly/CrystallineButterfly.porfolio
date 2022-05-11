@@ -4,16 +4,18 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
-    <!-- <link rel="stylesheet" href="/Js/popUp.js" /> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kell's Porfolio</title>
     <script>
-      src="https://kit.fontawesome.com/d6cd3c7604.js"
-      crossorigin="anonymous"
+      src = "https://kit.fontawesome.com/d6cd3c7604.js";
+      crossorigin = "anonymous";
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/Js/dynamics.js" defer></script>
+    <script src="/Js/popUp.js" defer></script>
+    <!-- <script src="/Js/localStorage.js" defer></script> -->
+    <script src="/Js/formvalidiate.js" defer></script>
   </head>
 
   <body>
@@ -35,11 +37,15 @@
         <!-- <div class="hamburger-menu">
            <img src="./assets/Union.svg" alt="hamburger" /> -->
         <!-- </div> -->
-        
+
         <div class="mobile-nav-bar">
           <div class="btn-nav-open">
             <button class="btn-open" type="button">
-              <img class="btn-open-img" src="./assets/Union.svg" alt="hamburger menu" />
+              <img
+                class="btn-open-img"
+                src="./assets/Union.svg"
+                alt="hamburger menu"
+              />
             </button>
           </div>
           <div class="mobile-nav-container">
@@ -54,9 +60,11 @@
           </div>
         </div>
       </nav>
-      
+
 
     </header>
+    <!-- Popup section -->
+    <div class="popup-section"></div>
 
     <!-- HERO SECTION -->
     <section class="hero-section">
@@ -146,7 +154,7 @@
               <div class="tag">css</div>
               <div class="tag">javascript</div>
             </div>
-            <a href="#" class="see-project">See Project</a>
+            <a class="see-project">See Project</a>
           </div>
         </div>
 
@@ -172,7 +180,7 @@
               <div class="tag">css</div>
               <div class="tag">javascript</div>
             </div>
-            <a href="#" class="see-project">See Project</a>
+            <a class="see-project">See Project</a>
           </div>
           <div class="project-img">
             <img
@@ -216,7 +224,7 @@
                 </div>
               </li>
             </ul>
-            <a href="#" class="see-project">See Project</a>
+            <a class="see-project">See Project</a>
           </div>
         </div>
 
@@ -241,7 +249,7 @@
               <div class="tag">css</div>
               <div class="tag">javascript</div>
             </div>
-            <a href="#" class="see-project">See Project</a>
+            <a href="" class="see-project">See Project</a>
           </div>
 
           <div class="project-img">
@@ -256,7 +264,7 @@
     </section>
 
     <!-- ABOUT MYSELF SECTION -->
-    <section class="about-section" id ="about">
+    <section class="about-section" id="about">
       <div class="container">
         <div class="flex-about">
           <div class="about-info">

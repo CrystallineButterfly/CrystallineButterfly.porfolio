@@ -1,13 +1,15 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable require-jsdoc */
+// /* eslint-disable linebreak-style */
+// /* eslint-disable require-jsdoc */
 
-// const form = document.querySelector('.form-element');
-// const message = 'Email must contain only lower case characters';
+// const form = document.querySelector('.Email');
+// const message = 'Email input must use ONLY lower case characters';
 
 // // eslint-disable-next-line require-jsdoc
-// function showMessage(input, message) {
-//   const msg = document.querySelector('.validation-msg');
-//   msg.innerHTML = `<p class="error-msg">${message}</p>`;
+// function showMessage(_input, message) {
+//   const msg = document.querySelector('.validate-message');
+//   msg.innerHTML = `<p class="error-message">${message}</p>`;
 // }
 
 // function validateEmail(input) {
@@ -16,10 +18,10 @@
 //     return true;
 //   }
 //   return false;
+// eslint-disable-next-line linebreak-style
 // }
-
-// form.addEventListener('submit', (event) => {
-//   const msg = document.querySelector('.validation-msg');
+// form.addEventListener('contact-section-button', (event) => {
+//   const msg = document.querySelector('.validate-message');
 //   event.preventDefault();
 //   const input = form.elements[1];
 //   const emailValid = validateEmail(input.value);
