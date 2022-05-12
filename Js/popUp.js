@@ -44,18 +44,18 @@ const projects = [
     btnImg1: '/assets/icons/github.svg',
     btnImg2: '/assets/icons/twitter.svg',
   },
-  {
-  title: 'Uber Navigation',
-    devs: ['K42', ' • backend', ' • 2022'],
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    tags: ['html', 'css', 'javascript'],
-    image: '/assets/projects/project-3.png',
-    liveVersion: 'See Live',
-    sourceLink: 'See Source',
-    btnImg1: '/assets/icons/github.svg',
-    btnImg2: '/assets/icons/twitter.svg',
-  },
+  //   {
+  // title: 'Uber Navigation',
+  //   devs: ['K42', ' • backend', ' • 2022'],
+  //   description:
+  //     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  //   tags: ['html', 'css', 'javascript'],
+  //   image: '/assets/projects/project-3.png',
+  //   liveVersion: 'See Live',
+  //   sourceLink: 'See Source',
+  //   btnImg1: '/assets/icons/github.svg',
+  //   btnImg2: '/assets/icons/twitter.svg',
+  // },
 ];
 
 const buttonOne = document.querySelectorAll('.see-project');
