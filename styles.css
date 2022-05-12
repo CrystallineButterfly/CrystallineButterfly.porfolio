@@ -322,7 +322,7 @@ a:hover {
 .mobile-menu {
   display: none;
 }
-er
+
 .project,
 .grid {
   display: grid;
@@ -783,7 +783,7 @@ section .portfolio {
 }
 
 /* Contact me section */
- footer {
+footer {
   border-bottom-left-radius: 4.6875rem;
   border-top-right-radius: 7.1875rem;
   background: #6070ff;
@@ -791,7 +791,7 @@ section .portfolio {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
- }
+}
 
 #contact-section {
   padding-bottom: 7rem;
@@ -825,7 +825,7 @@ section .portfolio {
 }
 
 label {
-  color: white;;
+  color: white;
 }
 
 #contact-section p {
