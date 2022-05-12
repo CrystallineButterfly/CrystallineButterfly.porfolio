@@ -322,7 +322,7 @@ a:hover {
 .mobile-menu {
   display: none;
 }
-
+er
 .project,
 .grid {
   display: grid;
@@ -338,6 +338,10 @@ a:hover {
 .project-img {
   display: inline-block;
   width: 100%;
+}
+
+.form-element {
+  width: 80%;
 }
 
 @media screen and (max-width: 48rem) {
@@ -779,18 +783,23 @@ section .portfolio {
 }
 
 /* Contact me section */
+ footer {
+  border-bottom-left-radius: 4.6875rem;
+  border-top-right-radius: 7.1875rem;
+  background: #6070ff;
+  background-image: url(./assets/header-bg.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+ }
 
 #contact-section {
-  background: #6070ff;
   padding-bottom: 7rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 4.6875rem;
-  border-top-right-radius: 7.1875rem;
-  background-image: url(./assets/header-bg.svg);
-  background-repeat: no-repeat;
+  width: 60%;
 }
 
 #contact-section > h2 {
@@ -810,8 +819,13 @@ section .portfolio {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 2rem;
+  align-items: flex-start;
   width: 100%;
-  align-items: center;
+  margin-top: 30px;
+}
+
+label {
+  color: white;;
 }
 
 #contact-section p {
@@ -819,9 +833,9 @@ section .portfolio {
   font-size: 1.25rem;
   text-transform: none;
   text-align: center;
-  color: #142cff;
+  color: #fff;
   padding: 0 1rem;
-  width: 35.5625rem;
+  width: 95%;
 }
 
 .input-tag {
@@ -830,7 +844,7 @@ section .portfolio {
   border: 0.0625rem solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 0.25rem;
-  width: 27.9375rem;
+  width: 100%;
 }
 
 .validate-message {
@@ -845,7 +859,6 @@ section .portfolio {
 }
 
 textarea {
-  width: 27.9375rem;
   height: 10.625rem;
   border: 0.0625rem solid #60c095;
   box-sizing: border-box;
@@ -855,6 +868,7 @@ textarea {
   font-size: 0.9375rem;
   line-height: 1.5rem;
   color: #091e42;
+  width: 100%;
 }
 
 #contact-section button {
