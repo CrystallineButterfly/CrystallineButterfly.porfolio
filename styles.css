@@ -241,6 +241,8 @@ p.about-bio {
   cursor: pointer;
   background: transparent;
   right: 1.25rem;
+  width: 25px;
+  height: 25px;
 }
 
 .btn-open-img {
