@@ -6,8 +6,8 @@ const email1 = document.querySelector('email');
 const message1 = document.querySelector('message');
 
 function storeValues(name1, email1, message1) {
-    const dataObject = JSON.stringify({ name1, email1, message1 });
-    localStorage.setItem('dataObject', dataObject);
+  const dataObject = JSON.stringify({ name1, email1, message1 });
+  localStorage.setItem('dataObject', dataObject);
 }
 
 function populateStorage() {
