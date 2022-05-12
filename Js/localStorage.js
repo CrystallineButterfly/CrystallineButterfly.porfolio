@@ -1,9 +1,9 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable require-jsdoc */
 
-const name1 = document.querySelector('#name');
-const email1 = document.querySelector('#email');
-const message1 = document.querySelector('#msg');
+const name1 = document.querySelector('name');
+const email1 = document.querySelector('email');
+const message1 = document.querySelector('message');
 
 const storeValues = (name1, email1, message1) => {
   const dataObject = JSON.stringify({ name1, email1, message1 });
