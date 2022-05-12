@@ -3,12 +3,12 @@
 // /* eslint-disable linebreak-style */
 // /* eslint-disable require-jsdoc */
 
-const form = document.querySelector('form-element');
+const form = document.querySelector('.form-element');
 const message = 'Email input must use ONLY lower case';
 
 // eslint-disable-next-line require-jsdoc
 function showMessage(_input, message) {
-  const msg = document.querySelector('validate-message');
+  const msg = document.querySelector('.validate-message');
   msg.innerHTML = `<p class="error-message">${message}</p>`;
 }
 

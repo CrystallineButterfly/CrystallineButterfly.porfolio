@@ -77,11 +77,11 @@ section {
 
 .skill-item {
   background-color: #f7f7f9;
-  padding: .75rem;
-  border-radius: .75rem;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
   width: 7.625rem;
   height: 7.5rem;
-  margin: 0 .75rem 0 0;
+  margin: 0 0.75rem 0 0;
 }
 
 .chevron-closed {
@@ -94,7 +94,7 @@ ul.hide {
 
 .closed {
   padding: 1.5rem 0;
-  border-bottom: .0625rem;
+  border-bottom: 0.0625rem;
   border-style: solid;
   border-color: #dfe1e6;
 }
@@ -106,10 +106,10 @@ ul.hide {
 }
 
 .skill-name {
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   font-weight: 400;
   color: #253858;
-  margin: .75rem 0;
+  margin: 0.75rem 0;
 }
 
 .skill-trigger {
@@ -129,19 +129,19 @@ ul.hide {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
   flex-direction: row;
 }
 
 .logo {
-  padding: .625rem .75rem;
+  padding: 0.625rem 0.75rem;
   font-size: 1.125rem;
   color: #0019fa;
 }
 
 .nav-link {
-  padding: .625rem .75rem;
-  margin: 0 .5rem 0 0;
+  padding: 0.625rem 0.75rem;
+  margin: 0 0.5rem 0 0;
   color: #344563;
   font-size: 1rem;
   font-weight: 500;
@@ -197,7 +197,7 @@ p.about-bio {
 }
 
 .headline-section {
-  margin: .75rem 0;
+  margin: 0.75rem 0;
   padding: 10rem 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -219,7 +219,7 @@ p.about-bio {
   float: right;
   display: flex;
   width: 1.125rem;
-  height: .75rem;
+  height: 0.75rem;
   justify-content: center;
   align-items: center;
 }
@@ -270,18 +270,18 @@ p.about-bio {
 
 .mobile-nav-container {
   position: absolute;
-  top: .0625rem;
-  left: .0625rem;
+  top: 0.0625rem;
+  left: 0.0625rem;
   height: 100vh;
   width: 100%;
   background-color: #6070ffde;
   display: none;
-  backdrop-filter: blur(.1875rem);
+  backdrop-filter: blur(0.1875rem);
 }
 
 .btn-nav-close {
   position: absolute;
-  right: .3125rem;
+  right: 0.3125rem;
 }
 
 .menu-list-items {
@@ -297,7 +297,7 @@ p.about-bio {
   font-weight: 400;
   font-size: 1.75rem;
   text-decoration: none;
-  letter-spacing: .0625rem;
+  letter-spacing: 0.0625rem;
 }
 
 a:hover {
@@ -329,7 +329,7 @@ a:hover {
   grid-gap: 1.5rem;
   padding: 1.5rem;
   border-radius: 1.5rem;
-  border: .0625rem solid #dfe1e6;
+  border: 0.0625rem solid #dfe1e6;
   background-color: #fff;
   margin: 4.438rem 0;
 }
@@ -362,11 +362,11 @@ a:hover {
     justify-content: start;
     align-items: center;
     background-color: #f7f7f9;
-    padding: .75rem;
-    border-radius: .75rem;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
     width: 100%;
     height: auto;
-    margin: 0 0 .75rem  0;
+    margin: 0 0 0.75rem  0;
   }
 
   .about-info {
@@ -391,7 +391,7 @@ a:hover {
     flex-direction: column;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    border: .0625rem solid #dfe1e6;
+    border: 0.0625rem solid #dfe1e6;
     background-color: #fff;
     margin: 4.438rem 0;
   }
@@ -401,7 +401,7 @@ a:hover {
     flex-direction: column-reverse;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    border: .0625rem solid #dfe1e6;
+    border: 0.0625rem solid #dfe1e6;
     background-color: #fff;
     margin: 4.438rem 0;
   }
@@ -475,7 +475,7 @@ a:hover {
   text-transform: uppercase;
   text-size-adjust: 1.125rem;
   color: #344563;
-  margin: 0 .75rem 0 0;
+  margin: 0 0.75rem 0 0;
 }
 
 .project-tech,
@@ -501,13 +501,13 @@ a:hover {
 }
 
 .tag {
-  font-size: .75rem;
+  font-size: 0.75rem;
   color: #0017eb;
   font-weight: 500;
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   background-color: #ebebff;
-  border-radius: .5rem;
-  margin: 0 .5rem 0 0;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem 0 0;
 }
 
 a.see-project {
@@ -515,9 +515,9 @@ a.see-project {
   text-size-adjust: 1.0625rem;
   color: #396df2;
   text-decoration: none;
-  padding: .75rem;
-  border: .0625rem solid #6070ff; /* Border Size, Type , Color */
-  border-radius: .5rem;
+  padding: 0.75rem;
+  border: 0.0625rem solid #6070ff; /* Border Size, Type , Color */
+  border-radius: 0.5rem;
   transition: all 0.4s ease-in-out; /* 400ms */
 }
 
@@ -525,9 +525,9 @@ a.button {
   text-size-adjust: 1.0625rem;
   color: #396df2;
   text-decoration: none;
-  padding: .75rem;
-  border: .0625rem solid #6070ff; /* Border Size, Type , Color */
-  border-radius: .5rem;
+  padding: 0.75rem;
+  border: 0.0625rem solid #6070ff; /* Border Size, Type , Color */
+  border-radius: 0.5rem;
   transition: all 0.4s ease-in-out; /* 400ms */
 }
 
@@ -536,10 +536,10 @@ a.see-project:hover {
   background-color: #396df2;
   color: #fff;
   text-decoration: none;
-  padding: .75rem;
-  box-shadow: 0 .5rem 1rem rgba(64, 83, 252, 0.24);
-  border: .0625rem solid #6070ff;
-  border-radius: .5rem;
+  padding: 0.75rem;
+  box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
+  border: 0.0625rem solid #6070ff;
+  border-radius: 0.5rem;
 }
 
 a.see-project:focus {
@@ -547,10 +547,10 @@ a.see-project:focus {
   background-color: #2230d2;
   color: #fff;
   text-decoration: none;
-  padding: .75rem;
-  border: .0625rem solid #2230d2;
-  border-radius: .5rem;
-  outline: .0625rem #396df2;
+  padding: 0.75rem;
+  border: 0.0625rem solid #2230d2;
+  border-radius: 0.5rem;
+  outline: 0.0625rem #396df2;
 }
 
 .works-header {
@@ -570,7 +570,7 @@ a.see-project:focus {
   width: 100%;
   height: 100%;
   background-color: #c1c7d0e5;
-  backdrop-filter: blur(.125rem);
+  backdrop-filter: blur(0.125rem);
 }
 
 .popup-main-container {
@@ -582,7 +582,7 @@ a.see-project:focus {
 .popup-content {
   display: flex;
   flex-direction: column;
-  margin: .625rem .625rem;
+  margin: 0.625rem 0.625rem;
 }
 
 .popup-heading {
@@ -594,7 +594,7 @@ a.see-project:focus {
   font-weight: bold;
   font-size: 2rem;
   line-height: 2.75rem;
-  margin-bottom: .625rem;
+  margin-bottom: 0.625rem;
 }
 
 /* Button-styles-popup */
@@ -616,14 +616,13 @@ a.see-project:focus {
 .popup-example-dev {
   display: flex;
   list-style-type: none;
-  gap: .625rem;
+  gap: 0.625rem;
 }
-
 
 .dev1 {
   font-style: normal;
   font-weight: 600;
-  font-size: .8125rem;
+  font-size: 0.8125rem;
   line-height: 1rem;
   color: #344563;
 }
@@ -631,7 +630,7 @@ a.see-project:focus {
 .dev2 {
   font-style: normal;
   font-weight: 600;
-  font-size: .8125rem;
+  font-size: 0.8125rem;
   line-height: 1rem;
   color: #7a869a;
 }
@@ -639,15 +638,15 @@ a.see-project:focus {
 .popup-project-img1 {
   width: 100%;
   height: 100%;
-  margin-top: .9375rem;
+  margin-top: 0.9375rem;
 }
 
 .project-popup-info {
   font-weight: normal;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   line-height: 1.5rem;
   color: #344563;
-  margin-top: .625rem;
+  margin-top: 0.625rem;
 }
 
 .popup-tags {
@@ -663,17 +662,17 @@ a.see-project:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   background-color: #ebebff;
   width: auto;
-  border-radius: .625rem;
-  padding-left: .9375rem;
-  padding-right: .9375rem;
+  border-radius: 0.625rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
 }
 
 .popup-button {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
 }
@@ -688,19 +687,17 @@ a.see-project:focus {
   font-weight: 500;
   font-size: 1.125rem;
   text-decoration: none;
-  border: .0938rem solid #396df2;
+  border: 0.0938rem solid #396df2;
   width: 8.75rem;
-  margin-top: .9375rem;
+  margin-top: 0.9375rem;
   height: 3.125rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
-
 
 .popup-button1:hover {
   background-color: #396df2;
   color: #fff;
 }
-
 
 /* desktop pop-up styles */
 
@@ -718,23 +715,23 @@ a.see-project:focus {
   }
 
   .dev1 {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
 
   .dev2 {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
 
   .popup-desktop {
     display: flex;
-    margin-top: .625rem;
+    margin-top: 0.625rem;
     justify-content: space-between;
   }
 
   .popup-container-img {
     background-color: #e5e5e5;
     margin-top: 1.5625rem;
-    border-radius: .3125rem;
+    border-radius: 0.3125rem;
   }
 
   .project-popup-img1 {
@@ -742,7 +739,7 @@ a.see-project:focus {
   }
 
   .content-container {
-    margin: .0625rem 3.75rem;
+    margin: 0.0625rem 3.75rem;
   }
 
   .project-popup-info1 {
@@ -753,7 +750,7 @@ a.see-project:focus {
   }
 
   .project-popup-info2 {
-    margin-top: .625rem;
+    margin-top: 0.625rem;
     width: 35%;
   }
 
@@ -769,9 +766,6 @@ a.see-project:focus {
     margin-left: 1.25rem;
   }
 }
-
-
-
 
 /* Portfolio Styles Section */
 
@@ -836,9 +830,9 @@ section .portfolio {
 .input-tag {
   margin: 1rem 0;
   padding: 1rem;
-  border: .0625rem solid #d0d9d4;
+  border: 0.0625rem solid #d0d9d4;
   box-sizing: border-box;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   width: 27.9375rem;
 }
 
@@ -856,12 +850,12 @@ section .portfolio {
 textarea {
   width: 27.9375rem;
   height: 10.625rem;
-  border: .0625rem solid #60c095;
+  border: 0.0625rem solid #60c095;
   box-sizing: border-box;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   padding: 1rem;
   font-weight: 400;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   line-height: 1.5rem;
   color: #091e42;
 }
@@ -870,10 +864,10 @@ textarea {
   display: block;
   margin: 0 auto;
   background: #fff;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   flex-direction: row;
   align-items: center;
-  padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
   color: #001aff;
 }
 
