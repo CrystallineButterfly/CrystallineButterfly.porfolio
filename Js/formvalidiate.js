@@ -4,7 +4,7 @@ const formButton = document.querySelector('.contact-section-button');
 
 form.addEventListener('submit', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-    formButton.setCustomValidity('Pls put your email characters in lower case my g!');
+    formButton.setCustomValidity('Please put your email characters in lower case my g!');
     formButton.reportValidity();
     event.preventDefault();
   }
