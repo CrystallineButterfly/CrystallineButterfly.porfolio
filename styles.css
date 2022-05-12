@@ -611,6 +611,7 @@ a.see-project:focus {
   display: flex;
   list-style-type: none;
   gap: 0.625rem;
+  padding-left: 10px;
 }
 
 .dev1 {
@@ -701,6 +702,7 @@ a.see-project:focus {
   }
 
   .popup-project1-title {
+    padding: 10px;
     font-size: 2.5rem;
   }
 
