@@ -102,7 +102,6 @@ ul.hide {
 .skill-badge {
   width: 3rem;
   height: 3rem;
-  aspect-ratio: 1;
 }
 
 .skill-name {
@@ -309,7 +308,7 @@ a:hover {
   float: left;
   color: #6070ff;
   justify-content: left;
-  font: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
@@ -453,13 +452,12 @@ a:hover {
 }
 
 .project-title {
-  align-content: left;
   justify-content: left;
   font-weight: 700;
   grid-auto-flow: row;
   font-size: 2rem;
   line-height-step: 2.75rem;
-  padding: 10 3%;
+  padding: 10% 3%;
   color: #172b4d;
 }
 
@@ -473,7 +471,7 @@ a:hover {
 .project-tag {
   font-weight: 500;
   text-transform: uppercase;
-  text-size-adjust: 1.125rem;
+  text-size-adjust: 10%;
   color: #344563;
   margin: 0 0.75rem 0 0;
 }
@@ -512,7 +510,6 @@ a:hover {
 
 a.see-project {
   margin: 1rem 0;
-  text-size-adjust: 1.0625rem;
   color: #396df2;
   text-decoration: none;
   padding: 0.75rem;
@@ -522,7 +519,6 @@ a.see-project {
 }
 
 a.button {
-  text-size-adjust: 1.0625rem;
   color: #396df2;
   text-decoration: none;
   padding: 0.75rem;
@@ -532,7 +528,6 @@ a.button {
 }
 
 a.see-project:hover {
-  text-size-adjust: 1.0625rem;
   background-color: #396df2;
   color: #fff;
   text-decoration: none;
@@ -543,7 +538,6 @@ a.see-project:hover {
 }
 
 a.see-project:focus {
-  text-size-adjust: 1.0625rem;
   background-color: #2230d2;
   color: #fff;
   text-decoration: none;
@@ -793,7 +787,6 @@ section .portfolio {
   border-top-right-radius: 7.1875rem;
   background-image: url(./assets/header-bg.svg);
   background-repeat: no-repeat;
-  background-size: center;
 }
 
 #contact-section > h2 {

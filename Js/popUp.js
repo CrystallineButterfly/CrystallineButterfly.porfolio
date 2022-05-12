@@ -5,8 +5,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable max-len */
 
-;
-
 const projects = [
   {
     title: 'Tonic',
@@ -61,7 +59,6 @@ const projects = [
 ];
 
 const buttonOne = document.querySelectorAll('.see-project');
-
 
 const headersection = document.querySelector('header');
 
