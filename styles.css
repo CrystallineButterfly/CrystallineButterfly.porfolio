@@ -324,7 +324,7 @@ a:hover {
 }
 
 .project,
-.grid {
+.grid-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.5rem;
@@ -382,7 +382,7 @@ a:hover {
   }
 
   .project,
-  .grid {
+  .grid-div {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
@@ -746,6 +746,7 @@ a.see-project:focus {
     margin-bottom: 3.125rem;
     margin-left: 1.25rem;
     font-size: 1.0625rem;
+    color: #344563;
   }
 
   .project-popup-info2 {
