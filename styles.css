@@ -443,6 +443,7 @@ a:hover {
 .project-img {
   display: inline-block;
   width: auto;
+  height: auto;
 }
 
 .project-info {
