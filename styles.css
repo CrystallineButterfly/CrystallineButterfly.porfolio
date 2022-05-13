@@ -269,18 +269,18 @@ p.about-bio {
 
 .mobile-nav-container {
   position: absolute;
-  top: .0625rem;
-  left: .0625rem;
+  top: 0.0625rem;
+  left: 0.0625rem;
   height: 100vh;
   width: 100%;
   background-color: #6070ffde;
   display: none;
-  backdrop-filter: blur(.1875rem);
+  backdrop-filter: blur(0.1875rem);
 }
 
 .btn-nav-close {
   position: absolute;
-  right: .3125rem;
+  right: 0.3125rem;
 }
 
 .menu-list-items {
@@ -296,12 +296,13 @@ p.about-bio {
   font-weight: 400;
   font-size: 1.75rem;
   text-decoration: none;
-  letter-spacing: .0625rem;
+  letter-spacing: 0.0625rem;
 }
 
 a:hover {
   color: blue;
 }
+
 /* hamburger dynamics */
 
 .mylogo {
@@ -857,7 +858,7 @@ textarea {
 
 #contact-section button {
   display: block;
-  margin: .788rem auto;
+  margin: 0.788rem auto;
   background: #fff;
   border-radius: 0.5rem;
   flex-direction: row;
