@@ -111,7 +111,7 @@ function open(index) {
   <li class="popup-tag">${tags6}</li>
   </ul>
   <div class="popup-button">
-  <button type="button" class="popup-button1">${liveVersion}<img class="" src='assets/icons/Icon.svg'></button>
+  <button type="button" class="popup-button1">${liveVersio}<img class="" src='assets/icons/Icon.svg'></button>
   <button type="button" class="popup-button1">${sourceLink}<img class=""  src='assets/icons/github.svg'></button>
   </div>
   </div>
