@@ -839,7 +839,7 @@ label {
   border: 0.0625rem solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 0.25rem;
-  width: 447px;
+  width: 98%;
 }
 
 textarea {
@@ -857,7 +857,7 @@ textarea {
 
 #contact-section button {
   display: block;
-  margin: 0 auto;
+  margin: .788rem auto;
   background: #fff;
   border-radius: 0.5rem;
   flex-direction: row;
