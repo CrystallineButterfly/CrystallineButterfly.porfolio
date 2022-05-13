@@ -11,7 +11,7 @@ const projects = [
     devs: ['K42', ' • backend', ' • 2022'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ['html', 'css', 'javascript'],
+    tags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     image: 'assets/projects/project-2.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
@@ -24,7 +24,7 @@ const projects = [
     devs: ['K42', ' • backend', ' • 2022'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ['html', 'css', 'javascript'],
+    tags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     image: 'assets/projects/project-3.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
@@ -37,7 +37,7 @@ const projects = [
     devs: ['K42', ' • backend', ' • 2022'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ['html', 'css', 'javascript'],
+    tags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     image: 'assets/projects/project-1.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
@@ -49,7 +49,7 @@ const projects = [
     devs: ['K42', ' • backend', ' • 2022'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ['html', 'css', 'javascript'],
+    tags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     image: 'assets/projects/project-3.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
@@ -78,6 +78,9 @@ function open(index) {
   const tags1 = tags[0];
   const tags2 = tags[1];
   const tags3 = tags[2];
+  const tags4 = tags[3];
+  const tags5 = tags[4];
+  const tags6 = tags[5];
   const container = document.querySelector('.popup-section');
   container.innerHTML = `
   <div class="popup-main-container">
@@ -101,6 +104,11 @@ function open(index) {
   <li class="popup-tag">${tags1}</li>
   <li class="popup-tag">${tags2}</li>
   <li class="popup-tag">${tags3}</li>
+  </ul>
+  <ul class="popup-tags2">
+  <li class="popup-tag">${tags4}</li>
+  <li class="popup-tag">${tags5}</li>
+  <li class="popup-tag">${tags6}</li>
   </ul>
   <div class="popup-button">
   <button type="button" class="popup-button1">${liveVersion}<img class="" src='assets/icons/Icon.svg'></button>

@@ -647,13 +647,18 @@ a.see-project:focus {
   margin-top: 0.625rem;
 }
 
+.popup-tags2{
+  display: none;
+}
+
 .popup-tags {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
   align-items: baseline;
   color: #6070ff;
-  width: auto;
+  width: 60%;
+  margin-top: 20px;
 }
 
 .popup-tag {
@@ -713,6 +718,17 @@ a.see-project:focus {
     right: 3.75rem;
   }
 
+    .popup-tags2 {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      align-items: baseline;
+      color: #6070ff;
+      width: 60%;
+      margin-top: 10px;
+      margin-left: 35px; 
+    }
+
   .dev1 {
     font-size: 0.875rem;
   }
@@ -752,10 +768,11 @@ a.see-project:focus {
   .project-popup-info2 {
     margin-top: 0.625rem;
     width: 35%;
+    color: #344563;
   }
 
   .popup-tags {
-    margin-left: 1.375rem;
+    margin-left: 2.1875rem;
   }
 
   .popup-tag {
