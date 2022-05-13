@@ -223,6 +223,87 @@ p.about-bio {
   align-items: center;
 }
 
+/* navbar-button-dynamics */
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  width: 2.5rem;
+  height: 1.875rem;
+  cursor: pointer;
+  padding-left: 9.375rem;
+}
+
+.btn-open {
+  position: absolute;
+  margin-top: -0.625rem;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  right: 1.25rem;
+}
+
+.btn-open-img {
+  height: 1.5rem;
+}
+
+.btn-close {
+  background: transparent;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 3.125rem;
+  border: none;
+  font-weight: lighter;
+  font-size: 1.25rem;
+  color: #fff;
+  margin-right: 1.25rem;
+}
+
+.btn-open:hover {
+  background: transparent;
+}
+
+.btn-close:hover {
+  background: transparent;
+}
+
+.mobile-nav-container {
+  position: absolute;
+  top: .0625rem;
+  left: .0625rem;
+  height: 100vh;
+  width: 100%;
+  background-color: #6070ffde;
+  display: none;
+  backdrop-filter: blur(.1875rem);
+}
+
+.btn-nav-close {
+  position: absolute;
+  right: .3125rem;
+}
+
+.menu-list-items {
+  margin-top: 4.375rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.875rem;
+  gap: 1.125rem;
+}
+
+.menu-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.75rem;
+  text-decoration: none;
+  letter-spacing: .0625rem;
+}
+
+a:hover {
+  color: blue;
+}
+/* hamburger dynamics */
+
 .mylogo {
   display: flex;
   float: left;
