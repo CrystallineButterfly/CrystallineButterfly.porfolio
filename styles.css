@@ -647,7 +647,7 @@ a.see-project:focus {
   margin-top: 0.625rem;
 }
 
-.popup-tags2{
+.popup-tags2 {
   display: none;
 }
 
@@ -718,16 +718,16 @@ a.see-project:focus {
     right: 3.75rem;
   }
 
-    .popup-tags2 {
-      display: flex;
-      justify-content: space-around;
-      list-style-type: none;
-      align-items: baseline;
-      color: #6070ff;
-      width: 60%;
-      margin-top: 10px;
-      margin-left: 35px; 
-    }
+  .popup-tags2 {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: baseline;
+    color: #6070ff;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 35px;
+  }
 
   .dev1 {
     font-size: 0.875rem;
