@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const form = document.getElementById('contact-form');
 const emailInput = document.getElementById('email');
 const formButton = document.querySelector('.contact-section-button');
