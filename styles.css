@@ -223,88 +223,6 @@ p.about-bio {
   align-items: center;
 }
 
-/* navbar-button-dynamics */
-
-.menu-button {
-  display: flex;
-  align-items: center;
-  width: 2.5rem;
-  height: 1.875rem;
-  cursor: pointer;
-  padding-left: 9.375rem;
-}
-
-.btn-open {
-  position: absolute;
-  margin-top: -0.625rem;
-  border: none;
-  cursor: pointer;
-  background: transparent;
-  right: 1.25rem;
-  width: 25px;
-  height: 25px;
-}
-
-.btn-open-img {
-  height: 1.5rem;
-}
-
-.btn-close {
-  background: transparent;
-  cursor: pointer;
-  width: 2.5rem;
-  height: 3.125rem;
-  border: none;
-  font-weight: lighter;
-  font-size: 1.25rem;
-  color: #fff;
-  margin-right: 1.25rem;
-}
-
-.btn-open:hover {
-  background: transparent;
-}
-
-.btn-close:hover {
-  background: transparent;
-}
-
-.mobile-nav-container {
-  position: absolute;
-  top: 0.0625rem;
-  left: 0.0625rem;
-  height: 100vh;
-  width: 100%;
-  background-color: #6070ffde;
-  display: none;
-  backdrop-filter: blur(0.1875rem);
-}
-
-.btn-nav-close {
-  position: absolute;
-  right: 0.3125rem;
-}
-
-.menu-list-items {
-  margin-top: 4.375rem;
-  display: flex;
-  flex-direction: column;
-  margin-left: 1.875rem;
-  gap: 1.125rem;
-}
-
-.menu-title {
-  color: #fff;
-  font-weight: 400;
-  font-size: 1.75rem;
-  text-decoration: none;
-  letter-spacing: 0.0625rem;
-}
-
-a:hover {
-  color: blue;
-}
-
 .mylogo {
   display: flex;
   float: left;
@@ -330,21 +248,12 @@ a:hover {
   grid-gap: 1.5rem;
   padding: 1.5rem;
   border-radius: 1.5rem;
-  border: 0.0625rem solid #dfe1e6;
+  border: 1px solid #dfe1e6;
   background-color: #fff;
   margin: 4.438rem 0;
 }
 
-.project-img {
-  display: inline-block;
-  width: 100%;
-}
-
-.form-element {
-  width: 80%;
-}
-
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
   .skills-wrapper {
     width: 100%;
   }
@@ -449,6 +358,11 @@ a:hover {
   background-color: #f4f5f7;
 }
 
+.project-img {
+  display: inline-block;
+  width: 100%;
+}
+
 .project-info {
   display: flex;
   flex-direction: column;
@@ -518,7 +432,7 @@ a.see-project {
   margin: 1rem 0;
   color: #396df2;
   text-decoration: none;
-  padding: 0.75rem;
+  padding: 0.75rem; /* Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
   border: 0.0625rem solid #6070ff; /* Border Size, Type , Color */
   border-radius: 0.5rem;
   transition: all 0.4s ease-in-out; /* 400ms */
@@ -527,7 +441,7 @@ a.see-project {
 a.button {
   color: #396df2;
   text-decoration: none;
-  padding: 0.75rem;
+  padding: 0.75rem; /* Refactor : PX -> REMs , shortcut for padding: 12px 12px 12px 12px; */
   border: 0.0625rem solid #6070ff; /* Border Size, Type , Color */
   border-radius: 0.5rem;
   transition: all 0.4s ease-in-out; /* 400ms */
@@ -835,7 +749,7 @@ label {
   text-align: center;
   color: #fff;
   padding: 0 1rem;
-  width: 95%;
+  width: 569px;
 }
 
 .input-tag {
@@ -844,23 +758,12 @@ label {
   border: 0.0625rem solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 0.25rem;
-  width: 100%;
-}
-
-.validate-message {
-  margin-top: 2px;
-  color: white;
-  font-size: 16px;
-  height: 30px;
-}
-
-.error-message {
-  text-align: center;
+  width: 447px;
 }
 
 textarea {
-  height: 10.625rem;
-  border: 0.0625rem solid #60c095;
+  height: 170px;
+  border: 1px solid #60c095;
   box-sizing: border-box;
   border-radius: 0.25rem;
   padding: 1rem;
@@ -886,9 +789,9 @@ textarea {
 
 .spinner {
   background-color: #396df2;
-  margin: 6.25rem auto;
-  width: 2.5rem;
-  height: 2.5rem;
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
   position: relative;
   text-align: center;
   -webkit-animation: sk-rotate 2s infinite linear;
@@ -956,9 +859,9 @@ textarea {
 
 .sk-folding-cube {
   background-color: #396df2;
-  margin: 1.25rem auto;
-  width: 2.5rem;
-  height: 2.5rem;
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
   position: relative;
   -webkit-transform: rotateZ(45deg);
   transform: rotateZ(45deg);
@@ -1022,22 +925,22 @@ textarea {
 @-webkit-keyframes sk-foldCubeAngle {
   0%,
   10% {
-    -webkit-transform: perspective(8.75rem) rotateX(-180deg);
-    transform: perspective(8.75rem) rotateX(-180deg);
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
     opacity: 0;
   }
 
   25%,
   75% {
-    -webkit-transform: perspective(8.75rem) rotateX(0deg);
-    transform: perspective(8.75rem) rotateX(0deg);
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
     opacity: 1;
   }
 
   90%,
   100% {
-    -webkit-transform: perspective(8.75rem) rotateY(180deg);
-    transform: perspective(8.75rem) rotateY(180deg);
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
     opacity: 0;
   }
 }
@@ -1045,22 +948,22 @@ textarea {
 @keyframes sk-foldCubeAngle {
   0%,
   10% {
-    -webkit-transform: perspective(8.75rem) rotateX(-180deg);
-    transform: perspective(8.75rem) rotateX(-180deg);
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
     opacity: 0;
   }
 
   25%,
   75% {
-    -webkit-transform: perspective(8.75rem) rotateX(0deg);
-    transform: perspective(8.75rem) rotateX(0deg);
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
     opacity: 1;
   }
 
   90%,
   100% {
-    -webkit-transform: perspective(8.75rem) rotateY(180deg);
-    transform: perspective(8.75rem) rotateY(180deg);
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
     opacity: 0;
   }
 }
