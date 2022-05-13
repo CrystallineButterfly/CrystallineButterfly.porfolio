@@ -441,7 +441,7 @@ a:hover {
 
 .project-img {
   display: inline-block;
-  width: 100%;
+  width: auto;
 }
 
 .project-info {
